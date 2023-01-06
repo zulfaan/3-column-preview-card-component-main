@@ -1,7 +1,7 @@
 body{
     background-color: hsl(0, 0%, 95%);
 }
-h1{
+h2{
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
     color: hsl(0, 0%, 95%);
@@ -70,4 +70,26 @@ p{
 .attribution{
     font-size: 11px; text-align: center;
     color: hsl(228, 45%, 44%); 
+}
+.copyright{
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+}
+@media(max-width: 450px){
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+    .sedans{
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-left-radius: 0;
+    }
+    .luxury{
+        background-color: hsl(179, 100%, 13%);
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+    }
 }
